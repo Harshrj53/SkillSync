@@ -1,3 +1,37 @@
+
+---
+
+# ✅ 3️⃣ `classDiagram.md`
+
+```md
+# Class Diagram – SkillSync
+
+```mermaid
+classDiagram
+    class User {
+        userId
+        name
+        email
+        password
+    }
+
+    class Resume {
+        resumeId
+        education
+        skills
+        experience
+    }
+
+    class InterviewSession {
+        sessionId
+        questions
+        score
+    }
+
+    User --> Resume
+    User --> InterviewSession
+
+
 # Class Diagram – MediAlert
 
 ## Main Classes
