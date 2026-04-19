@@ -1,5 +1,7 @@
 # SkillSync – AI-Powered Interview & Resume Preparation Platform
 
+**🚀 Live Demo: [https://skillsync-app.vercel.app](https://skillsync-app.vercel.app)**
+
 A full-stack, production-ready web application for interview prep, resume building, and skill tracking with AI feedback.
 
 ---
