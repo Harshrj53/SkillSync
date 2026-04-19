@@ -1,0 +1,12 @@
+{
+  "name": "skillsync",
+  "version": "1.0.0",
+  "description": "SkillSync – AI-Powered Interview & Resume Preparation Platform",
+  "private": true,
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "db:init": "cd backend && npm run db:init"
+  }
+}
