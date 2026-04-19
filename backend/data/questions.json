@@ -1,0 +1,86 @@
+[
+  {
+    "id": "q1",
+    "category": "JavaScript",
+    "text": "What is the difference between 'let', 'const', and 'var' in JavaScript?",
+    "keywords": ["block scope", "function scope", "hoisting", "reassigned", "immutable", "temporal dead zone", "const", "let", "var"],
+    "maxScore": 10
+  },
+  {
+    "id": "q2",
+    "category": "JavaScript",
+    "text": "Explain closures in JavaScript with an example.",
+    "keywords": ["closure", "inner function", "outer function", "lexical scope", "access", "variable", "encapsulate", "private"],
+    "maxScore": 10
+  },
+  {
+    "id": "q3",
+    "category": "JavaScript",
+    "text": "What is the event loop and how does it work in Node.js?",
+    "keywords": ["event loop", "call stack", "callback queue", "non-blocking", "asynchronous", "libuv", "single thread", "microtask"],
+    "maxScore": 10
+  },
+  {
+    "id": "q4",
+    "category": "React",
+    "text": "What are React hooks and why were they introduced?",
+    "keywords": ["hooks", "useState", "useEffect", "functional component", "class component", "state", "lifecycle", "reusability"],
+    "maxScore": 10
+  },
+  {
+    "id": "q5",
+    "category": "React",
+    "text": "Explain the difference between controlled and uncontrolled components in React.",
+    "keywords": ["controlled", "uncontrolled", "state", "ref", "value", "onChange", "form", "input"],
+    "maxScore": 10
+  },
+  {
+    "id": "q6",
+    "category": "Node.js",
+    "text": "What is middleware in Express.js? Give examples.",
+    "keywords": ["middleware", "request", "response", "next", "pipeline", "authentication", "logging", "error handling"],
+    "maxScore": 10
+  },
+  {
+    "id": "q7",
+    "category": "Database",
+    "text": "What is the difference between SQL and NoSQL databases?",
+    "keywords": ["relational", "schema", "structured", "flexible", "ACID", "horizontal", "vertical", "joins", "document", "table"],
+    "maxScore": 10
+  },
+  {
+    "id": "q8",
+    "category": "Database",
+    "text": "Explain indexing in databases and why it is important.",
+    "keywords": ["index", "performance", "query", "search", "B-tree", "faster", "lookup", "write overhead"],
+    "maxScore": 10
+  },
+  {
+    "id": "q9",
+    "category": "System Design",
+    "text": "What is REST and what are its key principles?",
+    "keywords": ["stateless", "client server", "uniform interface", "HTTP", "resource", "cacheable", "GET", "POST", "PUT", "DELETE"],
+    "maxScore": 10
+  },
+  {
+    "id": "q10",
+    "category": "System Design",
+    "text": "Explain the concept of microservices architecture.",
+    "keywords": ["microservices", "independent", "service", "scalable", "API", "decoupled", "deployment", "communication"],
+    "maxScore": 10
+  },
+  {
+    "id": "q11",
+    "category": "CSS",
+    "text": "What is the CSS Box Model? Explain each component.",
+    "keywords": ["box model", "content", "padding", "border", "margin", "width", "height", "box-sizing"],
+    "maxScore": 10
+  },
+  {
+    "id": "q12",
+    "category": "General",
+    "text": "What is version control and why is Git important in software development?",
+    "keywords": ["version control", "git", "commit", "branch", "merge", "collaboration", "history", "rollback"],
+    "maxScore": 10
+  }
+]
