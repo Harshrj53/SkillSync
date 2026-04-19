@@ -169,34 +169,29 @@ npm run dev
 
 ---
 
-### Backend → Render
+### Backend → Render (via Blueprint)
 
-1. Push `backend/` to GitHub
-2. Create a **Web Service** on [render.com](https://render.com)
-3. Settings:
-   - **Root Directory**: `backend`
-   - **Build Command**: `npm install`
-   - **Start Command**: `node server.js`
-4. Add environment variables (same as `.env` but with production values):
-   - `DATABASE_URL` → Supabase URI
-   - `JWT_SECRET` → strong random string
-   - `OPENAI_API_KEY` → your key
-   - `FRONTEND_URL` → your Vercel URL (add after step below)
-5. Deploy → copy the Render URL
+1. Sign in to [Render](https://render.com).
+2. Click **New +** and select **Blueprint**.
+3. Connect your **SkillSync** GitHub repository.
+4. Render will automatically detect the `backend/render.yaml` file.
+5. Provide the required Environment Variables when prompted:
+   - `DATABASE_URL`: Your Supabase connection string.
+   - `FRONTEND_URL`: Your Vercel app URL (you can update this later).
+   - `OPENAI_API_KEY`: (Optional) Your OpenAI key for resume feedback.
+6. Click **Apply**. Render will deploy your API.
 
 ---
 
-### Frontend → Vercel
+### Frontend → Vercel (Optimized)
 
-1. Push `frontend/` to GitHub (or same monorepo)
-2. Import project on [vercel.com](https://vercel.com)
-3. Settings:
-   - **Root Directory**: `frontend`
-   - **Framework Preset**: Vite
-4. Add environment variable:
-   - `VITE_API_BASE_URL` = `https://your-render-backend.onrender.com/api`
-5. Deploy → copy the Vercel URL
-6. Go back to Render → update `FRONTEND_URL` to your Vercel URL → redeploy
+1. Sign in to [Vercel](https://vercel.com).
+2. Click **Add New > Project**.
+3. Select your **SkillSync** repository.
+4. **IMPORTANT**: Set the **Root Directory** to `frontend`.
+5. Add an Environment Variable:
+   - `VITE_API_BASE_URL`: Your Render backend URL + `/api` (e.g., `https://skillsync-api.onrender.com/api`).
+6. Click **Deploy**. Vercel will handle the routing via the included `vercel.json`.
 
 ---
 
